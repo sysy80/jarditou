@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*l'emplacement et l'agrandissement de la ligne noir */
+ul {
+    background-color:black;
+    display: flex;
+    border: 30px black solid;
+}
+/*l'emplacement et l'écart des textes acceuil,contact,tableau */
+li {
+    display: inline;
+    margin-left: 20px;
+}
+/*ligne noir pour acceuil,contact,tableau*/
+a {
+    color:white;
+}
+
+/*colonne d'image droite en gris*/
+.colonneGrise {
+    background-color: rgb(211, 204, 204);
+    width: 600px; height: 400px;
+}
+/*taille de la colonne grise*/
+.container {
+    display: inline-flex;
+    justify-content:space-between;
+}
+/*photo de la promotion sur les lames de térrasse*/
+.logo {display: flex;
+        justify-content: space-between;
+}
+/*texte tout le jardin*/
+span{
+    text-align:center;
+}
+/*responsive*/
+@media screen and (max-width:768px) {
+    
+h2{
+    font-size: 80px;
+}
+        
+}
